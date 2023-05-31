@@ -8,33 +8,120 @@
     <title>Sofbox - Responsive Software Landing Page</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;Raleway:300,400,500,600,700,800,900" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- owl-carousel -->
-    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.css" />
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css" />
-    <!-- media element player -->
-    <link href="css/mediaelementplayer.min.css" rel="stylesheet" type="text/css" />
-    <!-- Animate -->
-    <link rel="stylesheet" href="css/animate.css" />
-    <!-- Ionicons -->
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <!-- variable -->
-    <link rel="stylesheet" href="css/variables.css">
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
-     <!-- color -->
-     <link rel="stylesheet" href="css/color.css">
-    <!-- Responsive -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- custom style -->
-    <link rel="stylesheet" href="css/custom.css" />
- 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Add your custom styles here */
+
+        /* Center the main content */
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Style the logo image */
+        #logo_img {
+            max-width: 200px;
+        }
+
+        /* Style the big text */
+        .big-text {
+            font-size: 48px;
+            font-weight: 700;
+            margin-top: 60px;
+        }
+
+        /* Style the subheading */
+        .iq-font-light {
+            font-weight: 300;
+            margin-top: 40px;
+        }
+
+        /* Style the countdown elements */
+        #countdown {
+            list-style: none;
+            padding: 0;
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #countdown li {
+            margin: 0 10px;
+            text-align: center;
+        }
+
+        #countdown li .days,
+        #countdown li .hours,
+        #countdown li .minutes,
+        #countdown li .seconds {
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        #countdown li p {
+            margin: 0;
+        }
+
+        /* Style the form and input */
+        .iq-subscribe {
+            margin-top: 40px;
+        }
+
+        .iq-subscribe .form-group {
+            margin-right: 10px;
+        }
+
+        .iq-subscribe .form-control {
+            width: 250px;
+        }
+
+        .iq-subscribe .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #2ecc71;
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .iq-subscribe .button:hover {
+            background-color: #27ae60;
+        }
+
+        /* Style the back-to-top button */
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+        }
+
+        #back-to-top .top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #2ecc71;
+            color: #fff;
+            font-size: 24px;
+            border-radius: 50%;
+            transition: background-color 0.3s ease;
+        }
+
+        #back-to-top .top:hover {
+            background-color: #27ae60;
+        }
+    </style>
 </head>
 
 <body>
@@ -98,20 +185,19 @@
     <!-- Main Content END -->
     <!-- back-to-top -->
     <div id="back-to-top">
-        <a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
+        <a class="top" id="top" href="index.php"> <i class="ion-ios-upload-outline"><</i> </a>
     </div>
     <!-- back-to-top End -->
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Main js -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Main JS -->
     <script src="js/main.js"></script>
-    <!-- Google captcha code Js -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-    <!-- Custom -->
-    <script src="js/custom.js"></script>
 </body>
 
 </html>
+

@@ -10,3 +10,13 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 }
+
+function index()
+{
+    return('index');
+}
+
+function pricing()
+{
+    return('pricing');
+}

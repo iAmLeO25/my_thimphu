@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EventController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,25 +18,31 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/a', function () {
-    return view('index-02');
+Route::get('/index-01', function () {
+    return view('index-01');
 });
 
 Route::get('/b', function () {
     return view('index-2');
 });
 
-Route::get('/c', function () {
-    return view('index-01');
+Route::get('/eveRegi', function () {
+    return view('eveRegi');
 });
-Route::get('/d', function () {
-    return view('blog-2-columns');
-});
-
-Route::get('/e', function () {
-    return view('blog-single');
+Route::get('/crudUser', function () {
+    return view('crudUser');
 });
 
-Route::get('/f', function () {
+Route::get('/calan', function () {
+    return view('calan');
+});
+
+Route::get('/coming-soon', function () {
     return view('coming-soon');
 });
+
+Route::get('/event', function () {
+    return view('event');
+});
+
+Route::resource('products', EventController::class);

@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Sofbox - Responsive Software Landing Page</title>
+    <title>My Thimphu</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
     <!-- Google Fonts -->
@@ -62,7 +62,7 @@
           <div class="row">
             <div class="col-auto mr-auto">
               <ul>
-                <li><a href="javascript:void(0)"><i class="fa fa-phone iq-mr-10" aria-hidden="true"></i><span class="iq-font-white">+1234567890</span></a></li>
+                <li><a href="javascript:void(0)"><i class="fa fa-phone iq-mr-10" aria-hidden="true"></i><span class="iq-font-white">+97577210490</span></a></li>
               </ul>
             </div>
             <div class="col-auto">
@@ -91,18 +91,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto justify-content-end">
-                <li class="nav-item dropdown"><a id="navbarDropdown0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
+                <li class="nav-item "><a id="navbarDropdown0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link ">
                   Home</a>
-                  <div aria-labelledby="navbarDropdown0" class="dropdown-menu">
-                    <a href="index.html" class="dropdown-item">
-                      Classic
+                  <!-- <div aria-labelledby="navbarDropdown0" class="dropdown-menu">
+                    <a href="index-01" class="dropdown-item">
+                      Festival
                    </a>
-                   <a href="index-02.html" class="dropdown-item">
-                     Simple
+                   <a href="index-2" class="dropdown-item">
+                     Music
                   </a>
-                   <a href="index-01.html" class="dropdown-item">
-                       Fancy
-                   </a>
+                   <a href="index-02" class="dropdown-item">
+                       Art
+                   </a> -->
                       <!-- <a href="index-2.html" class="dropdown-item">
                         Index 03
                     </a> -->
@@ -112,20 +112,24 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#how-it-works">About</a>
                 </li>
+                
                 <li class="nav-item">
                   <a class="nav-link" href="#software-features">Service</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#team">Events</a>
+                  <a class="nav-link" href="#team">Team</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#pricing">Calendar</a>
+                  <a class="nav-link" href="calan">Calendar</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#blog">News</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="eveRegi">Event</a>
                 </li>
               </ul>
             </div>
@@ -145,12 +149,12 @@
             <h5 class="iq-font-white iq-mtb-20">The architects of memories, shaping each moment with precision and creativity to build experiences.</h5>
             <form class="form-inline">
 
-              <a href="#" class="button bt-black">View Events</a>
+              <a href="event" class="button bt-black">View Events</a>
             </form>
           </div>
           <div class="col-md-6">
             <img class="banner-img img-fluid center-block" src="thimphu.jpg" alt="">
-            <img class="banner-phone img-fluid center-block wow fadeInUp"  src="Calendar.png" alt="">
+            <a href="calan"><img class="banner-phone img-fluid center-block wow fadeInUp"  src="Calendar.png" alt=""></a>
           </div>
         </div>
       </div>
@@ -173,87 +177,88 @@
   <!-- Banner End -->
   <!-- How it Works -->
   <section class="overview-block-pt">
-    <div class="container" id="how-it-works">
-      <div class="row iq-mt-10">
-        <div class="col-sm-12">
-          <div class="heading-title iq-mt-50">
-            <h3 class="title iq-tw-7">How it Works</h3>
-            <p>Event organization involves several key steps to plan, coordinate, and execute successful events. </p>
-          </div>
+  <div class="container" id="how-it-works">
+    <div class="row iq-mt-10">
+      <div class="col-sm-12">
+        <div class="heading-title iq-mt-50">
+          <h3 class="title iq-tw-7">How it Works</h3>
+          <p>Event organization involves several key steps to plan, coordinate, and execute successful events.</p>
         </div>
-        <div class="col-lg-12 col-md-12">
-          <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="false" data-dots="false" data-items="3" data-items-laptop="3" data-items-tab="2" data-items-mobile="1" data-items-mobile-sm="1" data-margin="15">
-            <div class="item">
-              <div class="iq-feature10 iq-mtb-20">
-                <div class="left">
-                  <i class="ion-ios-monitor-outline"></i>
-                </div>
-                <div class="right">
-                  <h5 class="iq-tw-6 iq-mb-10">EASY TO CUSTOMIZE</h5>
-                  <p>Event organization can be customized based on the specific needs, scale, and nature of the event.</p>
-                </div>
+      </div>
+      <div class="col-lg-12 col-md-12">
+        <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="false" data-dots="false" data-items="3" data-items-laptop="3" data-items-tab="2" data-items-mobile="1" data-items-mobile-sm="1" data-margin="15">
+          <div class="item">
+            <div class="iq-feature10 iq-mtb-20">
+              <div class="left">
+                <i class="ion-ios-monitor-outline"></i>
+              </div>
+              <div class="right">
+                <h5 class="iq-tw-6 iq-mb-10">EASY TO PLAN</h5>
+                <p>Customizable event organization based on specific needs, scale, and nature of the event. </p>
               </div>
             </div>
-            <div class="item">
-              <div class="iq-feature10 iq-mtb-20">
-                <div class="left">
-                  <i class="ion-ios-settings"></i>
-                </div>
-                <div class="right">
-                  <h5 class="iq-tw-6 iq-mb-10">MULTIPURPOSE LAYOUT</h5>
-                  <p>Flexible and adaptable design for various purposes or types of events.</p>
-                </div>
+          </div>
+          <div class="item">
+            <div class="iq-feature10 iq-mtb-20">
+              <div class="left">
+                <i class="ion-ios-settings"></i>
+              </div>
+              <div class="right">
+                <h5 class="iq-tw-6 iq-mb-10">VIEW EVENTS</h5>
+                <p>Flexible and adaptable design for various types of events. </p>
               </div>
             </div>
-            <div class="item">
-              <div class="iq-feature10 iq-mtb-20">
-                <div class="left">
-                  <i class="ion-social-googleplus-outline"></i>
-                </div>
-                <div class="right">
-                  <h5 class="iq-tw-6 iq-mb-10">UNIQUE DESIGN</h5>
-                  <p>Thinking creatively and adding distinctive elements that make the event stand out. </p>
-                </div>
+          </div>
+          <div class="item">
+            <div class="iq-feature10 iq-mtb-20">
+              <div class="left">
+                <i class="ion-social-googleplus-outline"></i>
+              </div>
+              <div class="right">
+                <h5 class="iq-tw-6 iq-mb-10">PLAN A TRIP</h5>
+                <p>Creative thinking and distinctive elements that make the event stand out. </p>
               </div>
             </div>
-            <div class="item">
-              <div class="iq-feature10 iq-mtb-20">
-                <div class="left">
-                  <i class="ion-ios-heart-outline"></i>
-                </div>
-                <div class="right">
-                  <h5 class="iq-tw-6 iq-mb-10">Clean Codes</h5>
-                  <p>Essential for creating readable, maintainable, and efficient software.</p>
-                </div>
+          </div>
+          <div class="item">
+            <div class="iq-feature10 iq-mtb-20">
+              <div class="left">
+                <i class="ion-ios-heart-outline"></i>
+              </div>
+              <div class="right">
+                <h5 class="iq-tw-6 iq-mb-10">VIEW PLACES</h5>
+                <p>Essential for creating readable, maintainable, and efficient software. </p>
               </div>
             </div>
-            <div class="item">
-              <div class="iq-feature10 iq-mtb-20">
-                <div class="left">
-                  <i class="ion-ios-color-wand-outline"></i>
-                </div>
-                <div class="right">
-                  <h5 class="iq-tw-6 iq-mb-10">Easy to Use</h5>
-                  <p>Easy to use involves prioritizing user experience and implementing intuitive design principles</p>
-                </div>
+          </div>
+          <div class="item">
+            <div class="iq-feature10 iq-mtb-20">
+              <div class="left">
+                <i class="ion-ios-color-wand-outline"></i>
+              </div>
+              <div class="right">
+                <h5 class="iq-tw-6 iq-mb-10">STAY UPDATED WITH UPCOMING EVENTS</h5>
+                <p>Easy-to-use interface, prioritizing user experience and intuitive design principles. </p>
               </div>
             </div>
-            <div class="item">
-              <div class="iq-feature10 iq-mtb-20">
-                <div class="left">
-                  <i class="ion-ios-checkmark-outline"></i>
-                </div>
-                <div class="right">
-                  <h5 class="iq-tw-6 iq-mb-10">Responsive Design</h5>
-                  <p>Aims to provide an optimal user experience regardless of the device being used.</p>
-                </div>
+          </div>
+          <div class="item">
+            <div class="iq-feature10 iq-mtb-20">
+              <div class="left">
+                <i class="ion-ios-checkmark-outline"></i>
+              </div>
+              <div class="right">
+                <h5 class="iq-tw-6 iq-mb-10">PLAN ACCORDING TO THE EVENT</h5>
+                <p>Optimal user experience regardless of the device being used. </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
   <!-- How it Works -->
   
   <!-- Who is Sofbox ? -->
@@ -261,12 +266,12 @@
     <div class="container">
       <div class="row flex-row-reverse">
         <div class="col-lg-8 ">
-          <img class="iq-works-img pull-right img-fluid" src="images/drive/iPad-Mockup.png" alt="drive01">
+          <img class="iq-works-img pull-right img-fluid" src="images/drive/a.jpg" alt="drive01">
         </div>
         <div class="col-lg-4  align-self-center">
-          <span class="badge iq-badge blue-bg iq-font-white">Primary new</span>
-          <h3 class="iq-tw-6 iq-mb-15 iq-font-30">All four Productivity Dashboards in one click</h3>
-          <p class="iq-font-15">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <span class="badge iq-badge blue-bg iq-font-white">Thimphu Dromche</span>
+          <h6 class="iq-tw-6 iq-mb-15 iq-font-30">Place: Tashichoe Dzong</h6>
+          <p class="iq-font-15">Thimphu Drubchen precedes the popular three-day Thimphu Tshechu festival. The Drubchen showcases the sacred dances dedicated to the protecting deity of Bhutan, Palden Lhamo.</p>
         </div>
     <div class="iq-objectsnew">
       <span class="iq-objects-02" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-100px);">
@@ -286,12 +291,12 @@
     <div class="container">
       <div class="row ">
         <div class="col-lg-8 ">
-          <img class="iq-works-img pull-left img-fluid" src="images/drive/iPad-Mockup1.png" alt="drive01">
+          <img class="iq-works-img pull-left img-fluid" src="images/drive/b.jpg" alt="drive01">
         </div>
         <div class="col-lg-4  align-self-center">
-          <span class="badge iq-badge blue-bg iq-font-white">Primary new</span>
-          <h3 class="iq-tw-6 iq-mb-15 iq-font-30">All four Productivity Dashboards in one click</h3>
-          <p class="iq-font-15">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <span class="badge iq-badge blue-bg iq-font-white">Thimphu Tshechu</span>
+          <h3 class="iq-tw-6 iq-mb-15 iq-font-30">Place: Tashichoe Dzong</h3>
+          <p class="iq-font-15">Thimphu Tshechu starts on the 10th day of the 8th lunar month. The three-day religious event plays an important role in the lives of Bhutanese people as it is an opportunity for the Buddhist followers to immerse and cleanse themselves of the bad Karma and to remind them of what to make of their lives.</p>
         </div>
             <div class="iq-objects-softwarenew">
                 <span class="iq-objects-01" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-100px);">
@@ -312,16 +317,24 @@
     <div class="container">
       <div class="row flex-row-reverse">
         <div class="col-lg-8 ">
-          <img class="iq-works-img img-fluid" src="images/drive/iPad-Mockup2.png" alt="drive01">
+          <img class="iq-works-img img-fluid" src="images/drive/c.jpg" alt="drive01">
         </div>
         <div class="col-lg-4 align-self-center ">
-          <span class="badge iq-badge blue-bg iq-font-white">Primary new</span>
-          <h3 class="iq-tw-6 iq-mb-15 iq-font-30">All four Productivity Dashboards in one click</h3>
-          <p class="iq-font-15">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <span class="badge iq-badge blue-bg iq-font-white">Druk Wangyel Tshechu</span>
+          <h3 class="iq-tw-6 iq-mb-15 iq-font-30">Place: Dochula</h3>
+          <p class="iq-font-15">Druk Wangyel Tshechu, is commissioned by the Queen Mother Ashi Dorji Wangmo Wangchuck in 2011. This is a unique festival as the festival is fully performed by the Royal Bhutan Army rather than the monastery.</p>
         </div>
       </div>
     </div>
-  </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <!-- </section>
   <section class="iq-feature1 overview-block-ptb grey-bg" id="software-features">
     <div class="container">
       <div class="row">
@@ -401,254 +414,102 @@
         </div>
       </div>
     </div>
-  </section>
-  <section class="overview-block-ptb">
-    <div class="container">
-      <div class="row align-items-center text-center text-lg-left">
-        <div class="col-12 col-md-12 col-lg-6 mr-lg-auto text-center text-md-left">
-          <h3 class="iq-tw-6 iq-mb-15">Software Features</h3>
-                        <p class="iq-font-15">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </div>
-        <div class="col-12 col-md-12 col-lg-5">
-          <div class="row no-gutters">
-            <div class="col-6 mb-3 pr-3 ">
-              <div class=" iq-shadow d-flex align-items-center flex-wrap"><i class="ion-ios-person-outline " aria-hidden="true"></i>
-                <div class="text-left">
-                  <span class="timer iq-tw-7 iq-font-30" data-to="800" data-speed="10000">1540</span>
-                  <p class="m-0">Users</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 mb-3">
-              <div class=" iq-shadow d-flex align-items-center flex-wrap"><i class="ion-ios-folder-outline " aria-hidden="true"></i>
-                <div class="text-left">
-                  <span class="timer iq-tw-7 iq-font-30" data-to="400" data-speed="10000">1540</span>
-                  <p class="m-0">Downloads</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 pr-3">
-              <div class=" iq-shadow d-flex align-items-center flex-wrap"><i class="ion-ios-star " aria-hidden="true"></i>
-                <div class="text-left">
-                  <span class="timer iq-tw-7 iq-font-30" data-to="306" data-speed="10000">1540</span>
-                  <p class="m-0">App Rate </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class=" iq-shadow d-flex align-items-center flex-wrap blue-bg "><i class="ion-ios-paper-outline iq-font-white" aria-hidden="true"></i>
-                <div class="text-left">
-                  <span class="timer iq-tw-7 iq-font-30 iq-font-white" data-to="450" data-speed="10000">1540</span>
-                  <p class="m-0 iq-font-white">Projects</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </section>
+  </section> -->
   <!-- our team -->
-  <section class="overview-block-ptb blue-bg " id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 iq-font-white">
-          <div class="heading-title white text-center">
-            <h2 class="title white iq-tw-6 iq-font-white">Meet Our Creative Team</h2>
-            <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries.</p>
+ <section class="overview-block-ptb blue-bg" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 iq-font-white">
+        <div class="heading-title white text-center">
+          <h2 class="title white iq-tw-6 iq-font-white">Meet Our Creative Team</h2>
+          <p>Our creative team is an exceptional blend of talent, innovation, and passion. Comprised of individuals who are masters of their respective crafts, they bring a wealth of diverse skills and experiences to the table. From imaginative designers to visionary writers, and from tech-savvy developers to insightful strategists, our team members collaborate seamlessly, pushing boundaries and igniting inspiration.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-3 col-sm-6 iq-mtb-15">
+        <div class="iq-team2 text-center">
+          <div class="team-content">
+            <img alt="" class="img-fluid" src="images/team/small/d.jpg">
+          </div>
+          <div class="avtar-name iq-mt-20 iq-font-white text-center">
+            <a href="team-details-1.html">
+              <h6 class="iq-font-white iq-tw-6">Bikram Ghalley</h6>
+            </a>
+            <span>CEO, MyThimphu</span>
+          </div>
+          <div class="team-social iq-mt-10">
+            <ul class="list-inline">
+              <li>
+                <a href="https://www.facebook.com/bikram.leo?mibextid=ZbWKwL"> <i class="fa fa-facebook"></i> </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-twitter"></i> </a>
+              </li>
+              <li>
+                <a href="https://www.pinterest.com/bikramghalley/"> <i class="fa fa-pinterest-p"></i> </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3 col-sm-6 iq-mtb-15">
-          <div class="iq-team2 text-center">
-            <div class="team-content">
-              <img alt="" class="img-fluid" src="images/team/small/01.jpg">
-            </div>
-            <div class="avtar-name iq-mt-20 iq-font-white text-center">
-              <a href="team-details-1.html">
-                <h6 class="iq-font-white iq-tw-6">Ellie Davis</h6>
-              </a>
-              <span>CEO, Sofbox</span>
-            </div>
-            <div class="team-social iq-mt-10">
-              <ul class="list-inline">
-                <li>
-                  <a href="#"> <i class="fa fa-facebook"></i> </a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fa fa-twitter"></i> </a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
-                </li>
-              </ul>
-            </div>
+      <div class="col-lg-3 col-sm-6 iq-mtb-15">
+        <div class="iq-team2 text-center">
+          <div class="team-content">
+            <img alt="" class="img-fluid" src="images/team/small/02.jpg">
+          </div>
+          <div class="avtar-name iq-mt-20 iq-font-white text-center">
+            <a href="team-details-1.html">
+              <h6 class="iq-font-white iq-tw-6">Pratap</h6>
+            </a>
+            <span>CEO, MyThimphu</span>
+          </div>
+          <div class="team-social iq-mt-10">
+            <ul class="list-inline">
+              <li>
+                <a href="https://www.facebook.com/pratap.bender?mibextid=ZbWKwL"> <i class="fa fa-facebook"></i> </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-twitter"></i> </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-lg-3 col-sm-6 iq-mtb-15">
-          <div class="iq-team2 text-center">
-            <div class="team-content">
-              <img alt="" class="img-fluid" src="images/team/small/02.jpg">
-            </div>
-            <div class="avtar-name iq-mt-20 iq-font-white text-center">
-              <a href="team-details-1.html">
-                <h6 class="iq-font-white iq-tw-6">Dylan Wilson</h6>
-              </a>
-              <span>CEO, Sofbox</span>
-            </div>
-            <div class="team-social iq-mt-10">
-              <ul class="list-inline">
-                <li>
-                  <a href="#"> <i class="fa fa-facebook"></i> </a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fa fa-twitter"></i> </a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
-                </li>
-              </ul>
-            </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 iq-mtb-15">
+        <div class="iq-team2 text-center">
+          <div class="team-content">
+            <img alt="" class="img-fluid" src="images/team/small/03.jpg">
           </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 iq-mtb-15">
-          <div class="iq-team2 text-center">
-            <div class="team-content">
-              <img alt="" class="img-fluid" src="images/team/small/03.jpg">
-            </div>
-            <div class="avtar-name iq-mt-20 iq-font-white text-center">
-              <a href="team-details-1.html">
-                <h6 class="iq-font-white iq-tw-6">Alvin Martin</h6>
-              </a>
-              <span>CEO, Sofbox</span>
-            </div>
-            <div class="team-social iq-mt-10">
-              <ul class="list-inline">
-                <li>
-                  <a href="#"> <i class="fa fa-facebook"></i> </a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fa fa-twitter"></i> </a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
-                </li>
-              </ul>
-            </div>
+          <div class="avtar-name iq-mt-20 iq-font-white text-center">
+            <a href="team-details-1.html">
+              <h6 class="iq-font-white iq-tw-6">Sonam Chophel</h6>
+            </a>
+            <span>CEO, MyThimphu</span>
           </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 iq-mtb-15">
-          <div class="iq-team2 text-center">
-            <div class="team-content">
-              <img alt="" class="img-fluid" src="images/team/small/04.jpg">
-            </div>
-            <div class="avtar-name iq-mt-20 iq-font-white text-center">
-              <a href="team-details-1.html">
-                <h6 class="iq-font-white iq-tw-6">Caleb Nelson</h6>
-              </a>
-              <span>CEO, Sofbox</span>
-            </div>
-            <div class="team-social iq-mt-10">
-              <ul class="list-inline">
-                <li>
-                  <a href="#"> <i class="fa fa-facebook"></i> </a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fa fa-twitter"></i> </a>
-                </li>
-                <li>
-                  <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
-                </li>
-              </ul>
-            </div>
+          <div class="team-social iq-mt-10">
+            <ul class="list-inline">
+              <li>
+                <a href="https://www.facebook.com/sonam.chophel.142687?mibextid=ZbWKwL"> <i class="fa fa-facebook"></i> </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-twitter"></i> </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
   <!-- our team  end-->
-  <!-- Pricing  -->
-  <section class="overview-block-ptb" id="pricing">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-          <div class="heading-title text-center">
-            <h2 class="title iq-tw-6">Our Pricing</h2>
-            <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 iq-mtb-15">
-          <div class="iq-pricing-5 iq-ptb-40 white-bg">
-            <div class="pricing-header iq-mb-30">
-              <h6 class="iq-tw-6 iq-mb-10">Start Up</h6>
-              <h3 class="iq-tw-6">$1.99</h3>
-            </div>
-            <ul class="iq-mtb-30">
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>Photoshop</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>HTML5 &amp; CSS 3</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Wordpress</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Javascript</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Animation</li>
-            </ul>
-            <a class="button iq-mr-0" href="#">Purchase</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 iq-mtb-15">
-          <div class="iq-pricing-5 iq-ptb-40 active white-bg">
-            <div class="pricing-header iq-mb-30">
-              <h6 class="iq-tw-6 iq-mb-10">Professional</h6>
-              <h3 class="iq-tw-6">$4.99</h3>
-            </div>
-            <ul class="iq-mtb-30">
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>Photoshop</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>HTML5 &amp; CSS 3</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Wordpress</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Javascript</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Animation</li>
-            </ul>
-            <a class="button iq-mr-0" href="#">Purchase</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 iq-mtb-15">
-          <div class="iq-pricing-5 iq-ptb-40 white-bg">
-            <div class="pricing-header iq-mb-30">
-              <h6 class="iq-tw-6 iq-mb-10">Advanced</h6>
-              <h3 class="iq-tw-6">$9.99</h3>
-            </div>
-            <ul class="iq-mtb-30">
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>Photoshop</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>HTML5 &amp; CSS 3</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Wordpress</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Javascript</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Animation</li>
-            </ul>
-            <a class="button iq-mr-0" href="#">Purchase</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 iq-mtb-15">
-          <div class="iq-pricing-5 iq-ptb-40 white-bg">
-            <div class="pricing-header iq-mb-30">
-              <h6 class="iq-tw-6 iq-mb-10">Premium</h6>
-              <h3 class="iq-tw-6">$45.99</h3>
-            </div>
-            <ul class="iq-mtb-30">
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>Photoshop</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>HTML5 &amp; CSS 3</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Wordpress</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Javascript</li>
-              <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Animation</li>
-            </ul>
-            <a class="button iq-mr-0" href="#">Purchase</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Pricing End -->
   <!-- Latest Blog Post -->
   <section id="blog" class="overview-block-ptb grey-bg iq-blog">
     <div class="container">
@@ -656,56 +517,43 @@
         <div class="col-sm-12">
           <div class="heading-title">
             <h3 class="title iq-tw-7">Latest Blog Post</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley,</p>
+            <p>Stay informed, stay ahead, and unlock the potential of a future driven by transformative technologies.</p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12">
           <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="false" data-dots="true" data-items="3" data-items-laptop="3" data-items-tab="2" data-items-mobile="1" data-items-mobile-sm="1" data-margin="30" >
-            <div class="item">
+          <div class="item">
               <div class="iq-blog-box">
                 <div class="iq-blog-image clearfix">
-                  <div class="media-wrapper">
-                    <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg" controls preload="none">
-                      <source type="video/m4v" src="video/01.m4v" />
-                      <source type="video/webm" src="video/01.webm" />
-                      <source type="video/ogg" src="video/01.ogv" />
-                    </video>
+                  <div class="iq-bolg-video">
+                  <<iframe width="1036" height="583" src="https://www.youtube.com/embed/gj2lBmM6-Mc" title="Buddha Dordenma in Thimphu, Bhutan 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="iq-blog-detail">
-                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Blogpost With HTML Video</h5> </a> </div>
+                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Buddha Dordenma Statue</h5> </a> </div>
                   <div class="blog-content">
-                    <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
+                    <p>The statue was made celebrating the 60th anniversary of the fourth King Jigme Singye Wangchuck while fulfilling two ancient prophecies from the 8th and 12th century which stated that a giant Buddha statue would be built in the region to bless the world with peace and happiness. This directly lines up with Bhutan's model of growth focusing more on the Happiness index which measures the individual happiness of each citizen rather than the per capita income or any other monetary data.</p>
                   </div>
-                  <div class="iq-blog-meta">
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-user-circle" aria-hidden="true"></i> Tom Herry</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                    </ul>
-                  </div>
+                 
                 </div>
               </div>
             </div>
+          
             <div class="item">
               <div class="iq-blog-box">
                 <div class="iq-blog-image clearfix">
-                  <img class="img-fluid center-block" src="images/blog/01.jpg" alt="#">
+                  <div class="iq-bolg-video">
+                  <iframe width="1036" height="583" src="https://www.youtube.com/embed/QrAzM9wZmoo" title="Bhutan Tourism Video | Bhutan Festival Series | Thimphu Tshechu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
                 </div>
                 <div class="iq-blog-detail">
-                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Blogpost With Image</h5> </a> </div>
+                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Thimphu Tshechu</h5> </a> </div>
                   <div class="blog-content">
-                    <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
+                    <p>Thimphu Tshechu starts on the 10th day of the 8th lunar month. The three-day religious event plays an important role in the lives of Bhutanese people as it is an opportunity for the Buddhist followers to immerse and cleanse themselves of the bad Karma and to remind them of what to make of their lives.</p>
                   </div>
-                  <div class="iq-blog-meta">
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-user-circle" aria-hidden="true"></i> Tom Herry</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                    </ul>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -713,119 +561,13 @@
               <div class="iq-blog-box">
                 <div class="iq-blog-image clearfix">
                   <div class="iq-bolg-video">
-                    <iframe src="https://player.vimeo.com/video/176916362"></iframe>
+                  <iframe width="1036" height="583" src="https://www.youtube.com/embed/mGy2kbEU3Ng" title="Bhutan Festival Series -  The Druk Wangyel Festival  @ Dochula  Bhutan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="iq-blog-detail">
-                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Blogpost With Vimeo</h5> </a> </div>
+                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">The Druk Wangyel Festival</h5> </a> </div>
                   <div class="blog-content">
-                    <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                  </div>
-                  <div class="iq-blog-meta">
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-user-circle" aria-hidden="true"></i> Tom Herry</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="iq-blog-box">
-                <div class="iq-blog-image clearfix">
-                  <div class="iq-bolg-video">
-                    <iframe src="https://www.youtube.com/embed/nrJtHemSPW4?rel=0" allowfullscreen></iframe>
-                  </div>
-                </div>
-                <div class="iq-blog-detail">
-                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Blogpost With Youtube</h5> </a> </div>
-                  <div class="blog-content">
-                    <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                  </div>
-                  <div class="iq-blog-meta">
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-user-circle" aria-hidden="true"></i> Tom Herry</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="iq-blog-box">
-                <div class="iq-blog-image clearfix">
-                  <img class="img-fluid center-block" src="images/blog/03.jpg" alt="#">
-                  <div class="players" id="player2-container">
-                    <div class="media-wrapper">
-                      <audio id="player2" preload="none" controls>
-                        <source src="http://www.largesound.com/ashborytour/sound/AshboryBYU.mp3" type="audio/mp3">
-                      </audio>
-                    </div>
-                  </div>
-                </div>
-                <div class="iq-blog-detail">
-                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Blogpost With Audio</h5> </a> </div>
-                  <div class="blog-content">
-                    <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                  </div>
-                  <div class="iq-blog-meta">
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-user-circle" aria-hidden="true"></i> Tom Herry</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="iq-blog-box">
-                <div class="iq-blog-image clearfix">
-                  <img class="img-fluid center-block" src="images/blog/02.jpg" alt="#">
-                </div>
-                <div class="iq-blog-detail">
-                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Blogpost With Image</h5> </a> </div>
-                  <div class="blog-content">
-                    <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                  </div>
-                  <div class="iq-blog-meta">
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-user-circle" aria-hidden="true"></i> Tom Herry</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="iq-blog-box">
-                <div class="iq-blog-image clearfix">
-                  <div class="owl-carousel arrow-1" data-autoplay="true" data-loop="true" data-nav="true" data-dots="false" data-items="1" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-margin="30" >
-                    <div class="item">
-                      <img class="img-fluid" src="images/blog/01.jpg" alt="#">
-                    </div>
-                    <div class="item">
-                      <img class="img-fluid" src="images/blog/02.jpg" alt="#">
-                    </div>
-                    <div class="item">
-                      <img class="img-fluid" src="images/blog/03.jpg" alt="#">
-                    </div>
-                  </div>
-                </div>
-                <div class="iq-blog-detail">
-                  <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Blogpost With Slider</h5> </a> </div>
-                  <div class="blog-content">
-                    <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
-                  </div>
-                  <div class="iq-blog-meta">
-                    <ul class="list-inline">
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-user-circle" aria-hidden="true"></i> Tom Herry</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</a></li>
-                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
-                    </ul>
+                    <p>Dochula Pass at an altitude of 3116 meters is known for the 108 "Druk Wangyal Chortens" and the Druk Wangyal Lhakhang  that were built by Her Majesty the Queen Mother Ashi Dorji Wangmo Wangchuck in honour of His Majesty the Fourth King of Bhutan, Jigme Singye Wangchuck, and the soldiers who fought the Indian insurgents based in the Bhutanese jungles in December 2003.</p>
                   </div>
                 </div>
               </div>
@@ -836,29 +578,7 @@
     </div>
   </section>
   <!-- Latest Blog Post END -->
-  <!-- Clients -->
-  <div class="iq-our-clients white-bg iq-ptb-50">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-          <div class="owl-carousel" data-autoplay="true" data-loop="true" data-nav="true" data-dots="false" data-items="5" data-items-laptop="5" data-items-tab="4" data-items-mobile="3" data-items-mobile-sm="1" data-margin="30" >
-            <div class="item"> <img class="img-fluid center-block" src="images/clients/01.png" alt="#"></div>
-            <div class="item"> <img class="img-fluid center-block" src="images/clients/02.png" alt="#"></div>
-            <div class="item"> <img class="img-fluid center-block" src="images/clients/03.png" alt="#"></div>
-            <div class="item"> <img class="img-fluid center-block" src="images/clients/04.png" alt="#"></div>
-            <div class="item"> <img class="img-fluid center-block" src="images/clients/05.png" alt="#"></div>
-            <div class="item"> <img class="img-fluid center-block" src="images/clients/06.png" alt="#"></div>
-            <div class="item"> <img class="img-fluid center-block" src="images/clients/07.png" alt="#"></div>
-            <div class="item"> <img class="img-fluid center-block" src="images/clients/08.png" alt="#"></div>
-            <div class="item"> <img class="img-fluid center-block" src="images/clients/09.png" alt="#"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Clients END -->
-
-
+  
   <!-- Footer Info -->
   <section id="contact-us" class="footer-info white-bg">
     <div class="container">
@@ -894,7 +614,7 @@
         </div>
       </div>
     </div>
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.840108181602!2d144.95373631539215!3d-37.8172139797516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1497005461921" style="border:0" allowfullscreen></iframe>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28315.969704741863!2d89.62003273671898!3d27.484939304594146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e1943d9df45cc3%3A0x14944eaf62ce3e40!2sAthang%20Training%20Academy!5e0!3m2!1sen!2sbt!4v1683106597991!5m2!1sen!2sbt%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade"style="border:0" allowfullscreen></iframe>
   </section>
   <!-- Footer -->
   <footer id="contact" class="iq-footerr iq-ptb-40 ">
@@ -903,7 +623,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 iq-mtb-20">
           <div class="logo">
             <img class="img-fluid logo_img"  src="images/color-customizer/color-1.png" alt="#">
-            <div class="iq-font-black  iq-mt-15">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+            <div class="iq-font-black  iq-mt-15"></div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 iq-mtb-20">
@@ -912,15 +632,15 @@
             <ul class="iq-contact">
               <li>
                 <i class="ion-ios-location-outline"></i>
-                <p>1234 North Luke Lane, South Bend, IN 360001</p>
+                <p>Babena, Thimphu 11001</p>
               </li>
               <li>
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+0123 456 789</p>
+                <p>+97577210490</p>
               </li>
               <li>
                 <i class="ion-ios-email-outline"></i>
-                <p>mail@sofbox.com</p>
+                <p>bikramghalley@gmail.com</p>
               </li>
             </ul>
           </div>
@@ -971,7 +691,10 @@
         </div>
         <div class="col-auto">
           <div class="iq-copyright ">
-            Copyright @ <script>document.write(new Date().getFullYear())</script> <a href="index-02.html">Sofbox</a> All Rights Reserved
+            Copyright @ <script>document.write(new Date().getFullYear())</script>
+             <!-- <a href="index-02.html"> -->
+             <a href="coming-soon">
+             My Thimphu</a> All Rights Reserved
           </div>
         </div>
       </div>
@@ -996,3 +719,6 @@
   <script src="js/custom.js"></script>
 </body>
 </html>
+
+
+
